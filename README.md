@@ -58,15 +58,7 @@ php artisan shield:generate --all --ignore-existing-policies --panel=admin
 ## 🧑‍💻Development Include
 
 - [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) The most popular debugging tool for Laravel, providing detailed request and query insights.
-- [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) Generates helper files to improve autocompletion and static analysis in IDEs.
 - [larastan/larastan](https://github.com/larastan/larastan) A PHPStan extension for Laravel, configured at level 5 for robust static code analysis.
-
-This kit includes **Laravel Pint** for automatic PHP code styling and structured PHPDoc generation for your models.  
-After running migrations, execute the following command to update model documentation:
-
-```bash
-php artisan ide-helper:models -W && ./vendor/bin/pint app 
-```
 
 The `composer check` script runs **tests, PHPStan, and Pint** for code quality assurance:
 ```bash

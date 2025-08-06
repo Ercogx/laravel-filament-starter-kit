@@ -21,6 +21,3 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
-
-.phpstorm.meta.php
-_ide_helper.php
