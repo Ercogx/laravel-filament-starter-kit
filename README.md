@@ -1,11 +1,19 @@
 # 🚀 Glow Starter Kit
 
-This is a **Filament v3 Starter Kit** for **Laravel 12**, designed to accelerate the development of Filament-powered applications.
+This is a **Filament v4 Starter Kit** for **Laravel 12**, designed to accelerate the development of Filament-powered applications.
 
 Preview:
-![](https://raw.githubusercontent.com/ercogx/laravel-filament-starter-kit/main/preview-white.png)
+![](https://raw.githubusercontent.com/ercogx/laravel-filament-starter-kit/2.x/preview-white.png)
 Dark Mode:
-![](https://raw.githubusercontent.com/ercogx/laravel-filament-starter-kit/main/preview.png)
+![](https://raw.githubusercontent.com/ercogx/laravel-filament-starter-kit/2.x/preview.png)
+
+## Compatibility
+
+| Starter Kit                                                            | Filament Version                                        |
+|------------------------------------------------------------------------|---------------------------------------------------------|
+| [1.x](https://github.com/Ercogx/laravel-filament-starter-kit/tree/1.x) | [3.x](https://github.com/filamentphp/filament/tree/3.x) |
+| **2.x**                                                                | **4.x**                                                 |
+
 
 ## 📦 Installation
 
@@ -20,6 +28,8 @@ Now you can create a new project using the Laravel Filament Starter Kit.
 ```bash
 laravel new test-kit --using=ercogx/laravel-filament-starter-kit
 ```
+
+> If you want a Filament v3 (not recommended) ```laravel new test-kit --using=ercogx/laravel-filament-starter-kit:1.8.0```
 
 ## ⚙️ Setup
 
@@ -48,12 +58,11 @@ php artisan shield:generate --all --ignore-existing-policies --panel=admin
 
 ## 🌟Panel Include 
 
-- [Breezy](https://filamentphp.com/plugins/jeffgreco-breezy) My Profile page.
-- [Themes](https://filamentphp.com/plugins/hasnayeen-themes) Themes for Filament panels. Setup for `user` mode.
 - [Shield](https://filamentphp.com/plugins/bezhansalleh-shield) Access management to your Filament Panel's Resources, Pages & Widgets through spatie/laravel-permission.
-- [Settings](https://filamentphp.com/plugins/outerweb-settings) Integrates Outerweb/Settings into Filament.
 - [Backgrounds](https://filamentphp.com/plugins/swisnl-backgrounds) Beautiful backgrounds for Filament auth pages.
 - [Logger](https://filamentphp.com/plugins/z3d0x-logger) Extensible activity logger for filament that works out-of-the-box.
+
+> More will be added when the relevant plugins release support for v4
 
 ## 🧑‍💻Development Include
 
