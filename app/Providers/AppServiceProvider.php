@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use App\Policies\ActivityPolicy;
-use BezhanSalleh\FilamentShield\FilamentShield;
+use BezhanSalleh\FilamentShield\Facades\FilamentShield;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;

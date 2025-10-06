@@ -8,7 +8,7 @@
     "require": {
         "php": "^8.2",
         "andreia/filament-nord-theme": "^2.0",
-        "bezhansalleh/filament-shield": "4.0.0-beta2",
+        "bezhansalleh/filament-shield": "^4.0.2",
         "filament/filament": "^4.0",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
