@@ -62,6 +62,7 @@ php artisan shield:generate --all --ignore-existing-policies --panel=admin
 - [Backgrounds](https://filamentphp.com/plugins/swisnl-backgrounds) Beautiful backgrounds for Filament auth pages.
 - [Logger](https://filamentphp.com/plugins/z3d0x-logger) Extensible activity logger for filament that works out-of-the-box.
 - [Nord Theme](https://filamentphp.com/plugins/andreia-bohner-nord-theme) Beautiful Nord theme with subdued palette
+- [Breezy](https://filamentphp.com/plugins/jeffgreco-breezy) My Profile page.
 
 > More will be added when the relevant plugins release support for v4
 

@@ -10,6 +10,7 @@
         "andreia/filament-nord-theme": "^2.0",
         "bezhansalleh/filament-shield": "^4.0.2",
         "filament/filament": "^4.0",
+        "jeffgreco13/filament-breezy": "^3.0",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "swisnl/filament-backgrounds": "^2.0",
