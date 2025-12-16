@@ -70,6 +70,7 @@ php artisan shield:generate --all --ignore-existing-policies --panel=admin
 
 - [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) The most popular debugging tool for Laravel, providing detailed request and query insights.
 - [larastan/larastan](https://github.com/larastan/larastan) A PHPStan extension for Laravel, configured at level 5 for robust static code analysis.
+- [plannr/laravel-fast-refresh-database](https://github.com/PlannrCrm/laravel-fast-refresh-database) 🚀 Refresh your test databases faster than you've ever seen before
 
 The `composer check` script runs **tests, PHPStan, and Pint** for code quality assurance:
 ```bash
