@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Policies\ActivityPolicy;
 use BezhanSalleh\FilamentShield\Facades\FilamentShield;
+use Filament\Tables\Columns\Column;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
@@ -56,6 +57,13 @@ class AppServiceProvider extends ServiceProvider
     {
         FilamentShield::prohibitDestructiveCommands($this->app->isProduction());
 
-        Table::configureUsing(fn (Table $table) => $table->paginationPageOptions([10, 25, 50]));
+        Column::configureUsing(fn(Column $column) => $column->toggleable());
+
+        Table::configureUsing(fn (Table $table) => $table
+            ->reorderableColumns()
+            ->deferColumnManager(false)
+            ->deferFilters(false)
+            ->paginationPageOptions([10, 25, 50])
+        );
     }
 }
