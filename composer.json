@@ -17,7 +17,7 @@
         "unknow-sk/filament-logger": "^1.0"
     },
     "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.15",
+        "barryvdh/laravel-debugbar": "^4.0",
         "fakerphp/faker": "^1.23",
         "larastan/larastan": "^3.0",
         "laravel/pail": "^1.2.2",
