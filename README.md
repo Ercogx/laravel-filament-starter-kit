@@ -1,6 +1,6 @@
 # 🚀 Glow Starter Kit
 
-This is a **Filament v4 Starter Kit** for **Laravel 12**, designed to accelerate the development of Filament-powered applications.
+This is a **Filament v5 Starter Kit** for **Laravel 13**, designed to accelerate the development of Filament-powered applications.
 
 Preview:
 ![](https://raw.githubusercontent.com/ercogx/laravel-filament-starter-kit/main/preview-white.png)
@@ -12,7 +12,8 @@ Dark Mode:
 | Starter Kit                                                            | Filament Version                                        |
 |------------------------------------------------------------------------|---------------------------------------------------------|
 | [1.x](https://github.com/Ercogx/laravel-filament-starter-kit/tree/1.x) | [3.x](https://github.com/filamentphp/filament/tree/3.x) |
-| **2.x**                                                                | **4.x**                                                 |
+| [2.x](https://github.com/Ercogx/laravel-filament-starter-kit/tree/2.x) | [4.x](https://github.com/filamentphp/filament/tree/4.x) |
+| **3.x**                                                                | **5.x**                                                 |
 
 
 ## 📦 Installation
@@ -30,6 +31,8 @@ laravel new test-kit --using=ercogx/laravel-filament-starter-kit
 ```
 
 > If you want a Filament v3 (not recommended) ```laravel new test-kit --using=ercogx/laravel-filament-starter-kit:1.8.0```
+
+> If you want a Filament v4 ```laravel new test-kit --using=ercogx/laravel-filament-starter-kit:2.12.0```
 
 ## ⚙️ Setup
 
@@ -60,11 +63,9 @@ php artisan shield:generate --all --ignore-existing-policies --panel=admin
 
 - [Shield](https://filamentphp.com/plugins/bezhansalleh-shield) Access management to your Filament Panel's Resources, Pages & Widgets through spatie/laravel-permission.
 - [Backgrounds](https://filamentphp.com/plugins/swisnl-backgrounds) Beautiful backgrounds for Filament auth pages.
-- [Logger](https://filamentphp.com/plugins/z3d0x-logger) Extensible activity logger for filament that works out-of-the-box.
-- [Nord Theme](https://filamentphp.com/plugins/andreia-bohner-nord-theme) Beautiful Nord theme with subdued palette
+- [Logger](https://filamentphp.com/plugins/jacobtims-logger) Extensible activity logger for filament that works out-of-the-box.
+- [Theme Edinburgh](https://filamentphp.com/plugins/spykapp-theme-edinburgh) Beautiful theme with warm palette
 - [Breezy](https://filamentphp.com/plugins/jeffgreco-breezy) My Profile page.
-
-> More will be added when the relevant plugins release support for v4
 
 ## 🧑‍💻Development Include
 

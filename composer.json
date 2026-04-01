@@ -2,19 +2,25 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "ercogx/laravel-filament-starter-kit",
     "type": "project",
-    "description": "This is a Filament v3 Starter Kit for Laravel 12, designed to accelerate the development of Filament-powered applications.",
-    "keywords": ["laravel", "framework", "glow starter kit", "livewire", "filament"],
+    "description": "This is a Filament v5 Starter Kit for Laravel 13, designed to accelerate the development of Filament-powered applications.",
+    "keywords": [
+        "laravel",
+        "framework",
+        "glow starter kit",
+        "livewire",
+        "filament"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "andreia/filament-nord-theme": "^2.0",
-        "bezhansalleh/filament-shield": "^4.0.2",
-        "filament/filament": "^4.0",
-        "jeffgreco13/filament-breezy": "^3.0",
-        "laravel/framework": "^12.0",
+        "bezhansalleh/filament-shield": "^4.2",
+        "filament/filament": "^5.0",
+        "jacobtims/filament-logger": "^1.2",
+        "jeffgreco13/filament-breezy": "^3.2",
+        "laravel/framework": "^13.0",
         "laravel/tinker": "^3.0.0",
-        "swisnl/filament-backgrounds": "^2.0",
-        "unknow-sk/filament-logger": "^1.0"
+        "spykapps/theme-edinburgh": "^1.0",
+        "swisnl/filament-backgrounds": "^2.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^4.0",

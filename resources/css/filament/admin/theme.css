@@ -1,5 +1,11 @@
 @import '../../../../vendor/filament/filament/resources/css/theme.css';
-@source '../../../../vendor/jeffgreco13/filament-breezy/resources/**/*';
+@import '../../../../vendor/spykapps/theme-edinburgh/resources/css/edinburgh.css';
 
 @source '../../../../app/Filament/**/*';
 @source '../../../../resources/views/filament/**/*';
+@source '../../../../vendor/jeffgreco13/filament-breezy/resources/**/*';
+
+.fi-ta-header-cell, .fi-ta-selection-cell, .fi-ta-empty-header-cell {
+    border-bottom: initial;
+    background-color: initial;
+}
