@@ -4,6 +4,7 @@
 @source '../../../../app/Filament/**/*';
 @source '../../../../resources/views/filament/**/*';
 @source '../../../../vendor/jeffgreco13/filament-breezy/resources/**/*';
+@source '../../../../vendor/awcodes/filament-quick-create/resources/**/*.blade.php';
 
 .fi-ta-header-cell, .fi-ta-selection-cell, .fi-ta-empty-header-cell {
     border-bottom: initial;

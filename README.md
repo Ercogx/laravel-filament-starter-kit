@@ -64,14 +64,16 @@ php artisan shield:generate --all --ignore-existing-policies --panel=admin
 - [Shield](https://filamentphp.com/plugins/bezhansalleh-shield) Access management to your Filament Panel's Resources, Pages & Widgets through spatie/laravel-permission.
 - [Backgrounds](https://filamentphp.com/plugins/swisnl-backgrounds) Beautiful backgrounds for Filament auth pages.
 - [Logger](https://filamentphp.com/plugins/jacobtims-logger) Extensible activity logger for filament that works out-of-the-box.
-- [Theme Edinburgh](https://filamentphp.com/plugins/spykapp-theme-edinburgh) Beautiful theme with warm palette
+- [Theme Edinburgh](https://filamentphp.com/plugins/spykapp-theme-edinburgh) Beautiful theme with warm palette.
 - [Breezy](https://filamentphp.com/plugins/jeffgreco-breezy) My Profile page.
+- [DB Config](https://filamentphp.com/plugins/inerba-db-config) Settings page.
+- [Quick Create](https://filamentphp.com/plugins/awcodes-quick-create) Topbar item for quick resource creation.
 
 ## 🧑‍💻Development Include
 
 - [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) The most popular debugging tool for Laravel, providing detailed request and query insights.
 - [larastan/larastan](https://github.com/larastan/larastan) A PHPStan extension for Laravel, configured at level 5 for robust static code analysis.
-- [plannr/laravel-fast-refresh-database](https://github.com/PlannrCrm/laravel-fast-refresh-database) 🚀 Refresh your test databases faster than you've ever seen before
+- [plannr/laravel-fast-refresh-database](https://github.com/PlannrCrm/laravel-fast-refresh-database) 🚀 Refresh your test databases faster than you've ever seen before.
 
 The `composer check` script runs **tests, PHPStan, and Pint** for code quality assurance:
 ```bash

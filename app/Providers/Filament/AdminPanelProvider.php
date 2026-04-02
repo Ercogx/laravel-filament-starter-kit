@@ -2,6 +2,8 @@
 
 namespace App\Providers\Filament;
 
+use App\Filament\Resources\Users\UserResource;
+use Awcodes\QuickCreate\QuickCreatePlugin;
 use BezhanSalleh\FilamentShield\FilamentShieldPlugin;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
@@ -65,6 +67,10 @@ class AdminPanelProvider extends PanelProvider
                 FilamentLoggerPlugin::make(),
                 BreezyCore::make()
                     ->myProfile(),
+                QuickCreatePlugin::make()
+                    ->includes([
+                        UserResource::class,
+                    ]),
             ])
             ->sidebarWidth('14rem')
             ->authMiddleware([
