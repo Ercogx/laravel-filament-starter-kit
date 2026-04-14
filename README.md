@@ -1,5 +1,9 @@
 # 🚀 Glow Starter Kit
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ercogx/laravel-filament-starter-kit.svg?style=flat-square)](https://packagist.org/packages/ercogx/laravel-filament-starter-kit)
+[![Total Downloads](https://img.shields.io/packagist/dt/ercogx/laravel-filament-starter-kit.svg?style=flat-square)](https://packagist.org/packages/ercogx/laravel-filament-starter-kit)
+[![Stars](https://img.shields.io/packagist/stars/ercogx/laravel-filament-starter-kit.svg?style=flat-square)](https://packagist.org/packages/ercogx/laravel-filament-starter-kit)
+
 This is a **Filament v5 Starter Kit** for **Laravel 13**, designed to accelerate the development of Filament-powered applications.
 
 Preview:
