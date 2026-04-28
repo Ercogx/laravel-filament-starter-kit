@@ -10,3 +10,17 @@
     border-bottom: initial;
     background-color: initial;
 }
+
+.fi-ta-cell .fi-ta-text:not(.fi-inline) {
+    padding-inline: initial;
+}
+
+/* Strange overflow from theme */
+.curator-media-picker>ul>li>.overflow-hidden,
+.fi-fo-table-repeater>table {
+    overflow: visible;
+}
+
+.fi-section:not(.fi-section-not-contained):not(.fi-divided)>.fi-section-content-ctn>.fi-section-content {
+    padding: initial;
+}
