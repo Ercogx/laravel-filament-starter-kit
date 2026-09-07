@@ -2,6 +2,7 @@
 
 namespace App\Filament\Pages;
 
+use BezhanSalleh\FilamentShield\Traits\HasPageShield;
 use Filament\Schemas\Components;
 use Filament\Schemas\Schema;
 use Illuminate\Support\Facades\View;
@@ -10,6 +11,8 @@ use Inerba\DbConfig\AbstractPageSettings;
 
 class GeneralSettings extends AbstractPageSettings
 {
+    use HasPageShield;
+
     /**
      * @var array<string, mixed> | null
      */

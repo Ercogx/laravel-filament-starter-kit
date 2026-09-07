@@ -2,6 +2,7 @@
 
 namespace App\Providers\Filament;
 
+use App\Filament\Resources\FilamentLoggerPlugin;
 use App\Filament\Resources\Users\UserResource;
 use Awcodes\QuickCreate\QuickCreatePlugin;
 use BezhanSalleh\FilamentShield\FilamentShieldPlugin;
@@ -22,7 +23,6 @@ use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Jacobtims\FilamentLogger\FilamentLoggerPlugin;
 use Jeffgreco13\FilamentBreezy\BreezyCore;
 use SpyApp\ThemeEdinburgh\ThemeEdinburghPlugin;
 use Swis\Filament\Backgrounds\FilamentBackgroundsPlugin;
