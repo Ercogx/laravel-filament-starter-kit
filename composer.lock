@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d890cc6848b493d0fd3547d4db9b512a",
+    "content-hash": "2c8dc8adfef72176af6667c11fed66f8",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -11269,6 +11269,64 @@
             "time": "2026-07-15T19:09:14+00:00"
         },
         {
+            "name": "osmianski/fast-refresh-database",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/osmianski/fast-refresh-database.git",
+                "reference": "ac7fb132b81c365c02f3aa4f2f5eb390afd14541"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/osmianski/fast-refresh-database/zipball/ac7fb132b81c365c02f3aa4f2f5eb390afd14541",
+                "reference": "ac7fb132b81c365c02f3aa4f2f5eb390afd14541",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "symfony/finder": "^6.0 || ^7.0 || ^8.0"
+            },
+            "conflict": {
+                "plannr/laravel-fast-refresh-database": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.13",
+                "orchestra/testbench": "^9.0 || ^10.0 || ^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Osmianski\\FastRefreshDatabase\\FastRefreshDatabaseServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Osmianski\\FastRefreshDatabase\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sam Carré",
+                    "email": "29132017+Sammyjo20@users.noreply.github.com"
+                },
+                {
+                    "name": "Vlad Osmianski",
+                    "email": "vlaosm@gmail.com"
+                }
+            ],
+            "description": "Skip migrating the test database when nothing about it has changed 🚀",
+            "support": {
+                "source": "https://github.com/osmianski/fast-refresh-database/tree/v2.0.0"
+            },
+            "time": "2026-08-21T08:15:53+00:00"
+        },
+        {
             "name": "phar-io/manifest",
             "version": "2.0.4",
             "source": {
@@ -12064,51 +12122,6 @@
                 }
             ],
             "time": "2026-09-29T12:08:54+00:00"
-        },
-        {
-            "name": "plannr/laravel-fast-refresh-database",
-            "version": "v1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PlannrCrm/laravel-fast-refresh-database.git",
-                "reference": "b462772b0c87d683dd3f67706e174082ebea180c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PlannrCrm/laravel-fast-refresh-database/zipball/b462772b0c87d683dd3f67706e174082ebea180c",
-                "reference": "b462772b0c87d683dd3f67706e174082ebea180c",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.1",
-                "symfony/process": "^6.0 || ^7.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.13",
-                "orchestra/testbench": "^9.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Plannr\\Laravel\\FastRefreshDatabase\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sam Carré",
-                    "email": "29132017+Sammyjo20@users.noreply.github.com"
-                }
-            ],
-            "description": "Refresh your database faster than you've ever seen before 🚀",
-            "support": {
-                "issues": "https://github.com/PlannrCrm/laravel-fast-refresh-database/issues",
-                "source": "https://github.com/PlannrCrm/laravel-fast-refresh-database/tree/v1.2.0"
-            },
-            "time": "2024-04-08T11:29:20+00:00"
         },
         {
             "name": "sebastian/cli-parser",

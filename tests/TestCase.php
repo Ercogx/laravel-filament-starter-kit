@@ -3,7 +3,7 @@
 namespace Tests;
 
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
-use Plannr\Laravel\FastRefreshDatabase\Traits\FastRefreshDatabase;
+use Osmianski\FastRefreshDatabase\FastRefreshDatabase;
 
 abstract class TestCase extends BaseTestCase
 {
